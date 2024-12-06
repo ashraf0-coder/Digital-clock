@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4e54c8, #7276d1);
+    color: white;
+  }
+  
+  .clock-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  .time {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
